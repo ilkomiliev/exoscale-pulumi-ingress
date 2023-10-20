@@ -1,0 +1,6 @@
+*.pyc
+venv/
+.idea/
+*.kubecfg
+exo.secrets
+Pulumi.dev.yaml
