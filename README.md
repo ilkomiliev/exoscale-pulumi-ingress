@@ -108,16 +108,14 @@ To deploy the demo services, execute:
 Check, if the services can be reached:
 
 ```bash
-curl -v http://app1.demo/
+curl -v http://app1.demo
 
-curl -v http://app2.demo/
+curl -v http://app2.demo
 ```
 
 You should be able to check the applications also in your browser with the above URLs.
 
-Check that the Server name starts with `app1` for http://app1.demo/ and `app2` for http://app2.demo/ respectively.
-
-> the / is necessary at the end of the URLs at the moment!
+Check that the Server name starts with `app1` for http://app1.demo and `app2` for http://app2.demo respectively.
 
 - Clean up
 
